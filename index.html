@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="font" href="(https://fonts.google.com/specimen/Kumbh+Sans)">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 30px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="header">
+  <div class="header-navigation">
+    <img class="menu" src="images/icon-menu.svg" alt="">
+    <img class="logo" src="./images/logo.svg" alt="">
+    <button>Collections</button>
+    <button>Men</button>
+    <button>Women</button>
+    <button>About</button>
+  </div>
+
+  <div class="images-container">
+    <img class="cart-icon" src="./images/icon-cart.svg" alt="">
+    <img class="avatar" src="images/image-avatar.png" alt="">
+  </div>
+</div>
+  <hr>
+ <div class="hero">
+  <div class="thumbnail-mobile-wrap"><img class="thumbnail-mobile" src="images/image-product-1.jpg" alt=""></div>
+    <div class="hero-images">
+      <img class="thumbnail" src="images/image-product-1.jpg" alt="">
+      <div class="thumbnail-preview">
+        <img src="images/image-product-1-thumbnail.jpg" alt="">
+        <img src="images/image-product-2-thumbnail.jpg" alt="">
+        <img src="images/image-product-3-thumbnail.jpg" alt="">
+        <img src="images/image-product-4-thumbnail.jpg" alt="">
+      </div>
+     </div>
+
+      <div class="hero-text">
+        <div class="description-section">
+          <p class="product-title">SNEAKER COMPANY</p>
+          <h1>Fall Limited Edition <br> Sneakers</h1>
+           <p class="description">These low-profile sneakers are your perfect casual wear <br> companion. Featuring a 
+          durable rubber outer sole, they’ll <br> withstand everything the weather can offer.</p>
+        </div>
+
+        <!--the code below is for desktop price offer-->
+        <div class="price-offer-desktop-section">
+          
+            <div class="desktop-price-with-percentage">
+            $125.00
+            <div class="desktop-total-price">$250.00</div>
+            </div>
+
+            <div class="desktop-percentage">50%</div>
+          </div>
+      <!-- below is for mobile only-->
+         <div class="price-offer-section">
+          
+            <div class="price-with-percentage">
+              $125.00
+              <div class="percentage">50%</div>
+            </div>
+            
+             <div class="total-price">$250.00</div>
+            </div>
+         <!--End of price offer for mobile-->   
+
+            <div class="add-cart-wrap">
+              <div class="adding-button-section">
+                <img class="minus" src="images/icon-minus.svg" alt="">
+                <p id="adding-paragraph">0</p>
+                <img class="plus" src="images/icon-plus.svg" alt="">
+              </div>
+              <button class="add-to-cart"><img class="button-cart" src="images/icon-cart.svg" alt=""> Add to cart</button>
+            </div>
+          
+  
+          
+        </div>
+
+    </div>
+ </div>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Olayinka</a>.
+  </div>
+</body>
+</html>
